@@ -1,10 +1,8 @@
+# from dotenv import load_dotenv
+# load_dotenv()
+
 from langchain_openai import ChatOpenAI
-
-import openai
-
-openai_api_key = "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"
-
-chat_model = ChatOpenAI(openai_api_key=openai_api_key)
+chat_model = ChatOpenAI()
 
 # subject = "AI"
 # result = chat_model.invoke(subject + "에 대한 시를 써줘.")
